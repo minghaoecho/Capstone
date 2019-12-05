@@ -53,7 +53,7 @@
 
     <div class="container">
 
-        <form method="POST" action="/process">
+        <form  action="/process">
             <div class="form-group">
                     <label>Enter the product you like(currently support electronics) )</Electronics></Elec></Electr>:</label>
             <textarea type="text" rows="2" cols="5" class="form-control"  name="rawtext" required="true"></textarea>
@@ -73,19 +73,15 @@
     	<div class="alert alert-success" role="alert">
         <p class="alert-heading">Recommendation</p>
         <p>You may also like</p>
-        <ul>
-        	<li>{{results}}</li>
-    	</ul>
+
+          {%for i in range(0,len)%}
+            <p>{{results[i]}}</p>
+          {%endfor%}
+
     	</div>
     </div>
 <br>
 
-<center>
-  <!-- <img src="/static/images/map.png" alt="My Map"> -->
-  <!-- <iframe id="serviceFrameSend" src={{map_source}} width="500" height="500"  frameborder="0"> -->
-  <iframe id="serviceFrameSend" src="./static/maps.html" width="500" height="500"  frameborder="0"></iframe>
-  <!-- <link rel="import" href="/templates/test_maps.html"> -->
-</center>
 
 
 <br>
@@ -95,7 +91,7 @@
 
 <div class="container">
   <div class="alert alert-success" role="alert">
-    <p>Number of Businesses:</p>
+    <p>First Item Show Up</p>
     <ul>
       <li>{{count}}</li>
   </ul>
