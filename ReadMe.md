@@ -25,8 +25,9 @@ Understanding of the repo:
     the Data will be upload to SQL and the flask app will retrive the data from SQL to performe for users.
 
 # Result
-insert pictures
+![content]('/Asset/content.png')
 
 
 # Flask App
-insert pictures
+![content]('ASset/content_flalsk.png)
+![content]('ASset/user_flalsk.png)
