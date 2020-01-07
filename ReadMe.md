@@ -25,9 +25,9 @@ Understanding of the repo:
     the Data will be upload to SQL and the flask app will retrive the data from SQL to performe for users.
 
 # Result
-![content]('/Asset/content.png')
+![content]('./Asset/content.png')
 
 
 # Flask App
-![content]('ASset/content_flalsk.png)
-![content]('ASset/user_flalsk.png)
+![content]('.ASset/content_flalsk.png)
+![content]('.ASset/user_flalsk.png)
